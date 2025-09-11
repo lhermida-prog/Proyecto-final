@@ -56,3 +56,6 @@ header{
     align-self: flex-start;
     width: 120px;
 }
+main{
+    background-image: url(../img/image3.png);
+}
