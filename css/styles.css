@@ -58,4 +58,12 @@ header{
 }
 main{
     background-image: url(../img/image3.png);
+    height: 100vh;
+}
+footer{
+    background-image: url(../img/image2.png);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }

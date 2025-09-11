@@ -14,8 +14,24 @@
     </header>
     <main>
         <form action="login.html" method="get">
-            <label for="email">Email</label>
-            <input type="mail" name="email" value="">
+            <div >
+                <label for="mail">Mail: </label>
+                <input type="email" id="mail" value="" name="maill">
+            </div>
+            <div>
+                <label for="cont">Contraseña: </label>
+                <input type="password" name="pass" id="cont" value="">
+            </div>
+            <div>
+                <label for="rcont">Repetir contraseña: </label>
+                <input type="password" name="rcon" id="rcont" value="">
+            </div>
+            <button type="submit">Registrarme</button>
+            <div>
+                <label for="regis">Acepto terminos y condiciones</label>
+                <input type="checkbox" name="condd" id="regis" value="">
+            </div>
+            <button type="button"><a href="login.html">Ya tengo cuenta</a></button>
         </form>
     </main>
     <footer>
