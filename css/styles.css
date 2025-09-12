@@ -27,19 +27,15 @@ header {
 
 .loginn {
 
-    justify-content: center;
+    justify-content: flex-start;
     background-image: url(../img/image3.png);
     align-self: center;
-    text-align: center;
+    
 }
 
 .lo1 {
     align-self: center;
-    justify-content: center;
-    background-color: rgba(255, 166, 0, 0.388);
-    height: 400px;
-    width: 250px;
-    text-align: center;
+    justify-content: flex-start;
 }
 
 .s1h {
@@ -104,4 +100,17 @@ footer {
 
 .categoria:hover {
   background-color: darkorange;
+}
+.log11{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.reg11{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.regg{
+    align-self: center;
 }
