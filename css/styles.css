@@ -134,3 +134,21 @@ footer {
 .mainproduct{
     display: flex;
 }
+.mainindex{
+    display: flex;
+}
+.randomp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+.imadiv{
+    height: 200px;
+    width: 200px;
+}
+.imgin{
+    height: 70px;
+    width: 70px;
+}
