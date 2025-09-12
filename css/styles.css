@@ -1,37 +1,39 @@
-.headeer{
+.headeer {
     display: flex;
     justify-content: flex-end;
     align-self: flex-start;
-    
+
 }
-.login{
+
+.login {
     margin-right: 20px;
 }
-.imgh{
+
+.imgh {
     border-radius: 50px;
     height: 90px;
     width: 90px;
     border-style: solid;
     border-color: black;
     margin-top: 20px;
-    
+
 }
 
-header{
+header {
     background-image: url(../img/image2.png);
     background-repeat: no-repeat;
-   
 
-    
 }
-.loginn{
-    
+
+.loginn {
+
     justify-content: center;
     background-image: url(../img/image3.png);
     align-self: center;
     text-align: center;
 }
-.lo1{
+
+.lo1 {
     align-self: center;
     justify-content: center;
     background-color: rgba(255, 166, 0, 0.388);
@@ -39,31 +41,67 @@ header{
     width: 250px;
     text-align: center;
 }
-.s1h{
+
+.s1h {
     display: flex;
     justify-content: center;
     text-align: center;
     align-self: flex-end;
 }
-.sl1{
+
+.sl1 {
     display: flex;
     align-self: flex-start;
     justify-content: flex-end;
 }
-.buscador{
+
+.buscador {
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
     width: 120px;
 }
-main{
+
+main {
     background-image: url(../img/image3.png);
     height: 100vh;
 }
-footer{
+
+footer {
     background-image: url(../img/image2.png);
     height: 70px;
     display: flex;
     justify-content: center;
     align-self: center;
+}
+
+.nav-vertical{
+  background-color: antiquewhite; 
+  padding: 20px;
+  width: 240px;       
+}
+
+.categorias {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.categoria {
+  display: block;           
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;       
+  border-radius: 4px;
+  padding: 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.categoria:hover {
+  background-color: darkorange;
 }
