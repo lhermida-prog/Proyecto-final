@@ -28,7 +28,6 @@ header {
 .loginn {
 
     justify-content: flex-start;
-    background-image: url(../img/image3.png);
     align-self: center;
     
 }
@@ -116,7 +115,11 @@ footer {
 }
 .regdiv{
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: medium;
 }
 .logdiv{
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: medium;
 }
