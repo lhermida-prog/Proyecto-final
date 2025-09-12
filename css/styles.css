@@ -131,4 +131,6 @@ footer {
     font-weight: bold;
     font-size: medium;
 }
-
+.mainproduct{
+    display: flex;
+}
