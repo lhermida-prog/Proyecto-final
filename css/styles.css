@@ -60,7 +60,7 @@ header {
 
 main {
     background-image: url(../img/image3.png);
-    height: 100vh;
+    height: 85vh;
 }
 
 footer {
@@ -113,4 +113,10 @@ footer {
 }
 .regg{
     align-self: center;
+}
+.regdiv{
+    margin-bottom: 10px;
+}
+.logdiv{
+    margin-bottom: 10px;
 }
