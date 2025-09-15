@@ -150,21 +150,37 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    
+    
 
     
 }
 .imadiv{
     height: 200px;
     width: 200px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    
+    
 }
 .imgin{
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 90px;
+    margin-top: 5px;
 }
 
 .masp{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
     
     
 }
