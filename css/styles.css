@@ -230,7 +230,10 @@ footer {
     display: flex;
 }
 .detalles{
-    font-size: xx-large;
+    font-size: x-large;
     margin-left: 10px;
 }
-
+.product-div2{
+    display: flex;
+    flex-direction: column;
+}
