@@ -216,6 +216,21 @@ footer {
     background-color: rgba(255, 166, 0, 0.534);
     
 }
-   
-
+.padre-product{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+} 
+.img-product{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+.product-div1{
+    display: flex;
+}
+.detalles{
+    font-size: xx-large;
+    margin-left: 10px;
+}
 

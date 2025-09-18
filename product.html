@@ -9,13 +9,13 @@
 <body>
     <header>
         <section class="s1h">
-            <a href="index.html"><img src="img/image.png" alt="logo" class="imgh"></a>
+            <a href="./index.html"><img src="img/image.png" alt="logo" class="imgh"></a>
         </section>
         <section class="sl1">
             <nav class="headeer">
                 <article class="login"><a href="./index.html">HOME</a></article>
-                <article class="login"><a href="login.html">LOGIN</a></article>
-                <article><a href="register.html">REGISTER</a></article>
+                <article class="login"><a href="./login.html">LOGIN</a></article>
+                <article><a href="./register.html">REGISTER</a></article>
             </nav>
 
         </section>
@@ -63,41 +63,46 @@
             </nav>
         </section>
      
-        <section>
-             <h1> Nombre del Producto </h1>
-             <h2> Marca </h2>
-             <img src="" alt="">
-             <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, corporis provident, libero cupiditate fugiat iste obcaecati repellat voluptatem quia odio incidunt cum vitae nesciunt! Explicabo esse dolore dignissimos ea doloribus!</h3>
-             <p> Precio </p>
-             <p> Categoria </p>
-             <p> Stock </p>
-             <ul>
-                <li> <a href=""></a>Tag 1</li>
-                <li><a href=""></a> Tag 2</li>
-                <li><a href="">Tag 3</a></li>
-             </ul>
-             <form action="./index.html" method="get">
-             <div>
-               <label for="Rating">Rating</label>
-               <input id="Rating" type="radio" name="Rating" value="1">
-               <input id="Rating" type="radio" name="Rating" value="2">
-               <input id="Rating" type="radio" name="Rating" value="3">
-               <input id="Rating" type="radio" name="Rating" value="4">
-               <input id="Rating" type="radio" name="Rating" value="5">
+        <section class="padre-product">
+             <h1> Anteojos de sol </h1>
+             <h2> Oakley </h2>
+             <div class="product-div1">
+                <img class="img-product" src="./img/anteojos.png" alt="anteojos de sol">
+                <h3 class="detalles"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, corporis provident, libero cupiditate fugiat iste obcaecati repellat voluptatem quia odio incidunt cum vitae nesciunt! Explicabo esse dolore dignissimos ea doloribus!</h3>
              </div>
-             <div>
-               <label for="nombre">Nombre</label>
-               <input id="nombre" name="nombre" type="text" value="">
+             <div class="product-div2">
+                <h3 class="detalles"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, corporis provident, libero cupiditate fugiat iste obcaecati repellat voluptatem quia odio incidunt cum vitae nesciunt! Explicabo esse dolore dignissimos ea doloribus!</h3>
+                <p> $35,000.00 </p>
+                <p> Categoria: sunglasses </p>
+                <p> Stock: ¡ÚLTIMA UNIDAD! </p>
+                <ul>
+                   <li> <a href=""></a> Tag 1</li>
+                   <li> <a href=""></a> Tag 2</li>
+                   <li> <a href=""></a> Tag 3</li>
+                </ul>
+                <form action="./index.html" method="get">
+                <div>
+                  <label for="Rating">Rating</label>
+                  <input id="Rating" type="radio" name="Rating" value="1">
+                  <input id="Rating" type="radio" name="Rating" value="2">
+                  <input id="Rating" type="radio" name="Rating" value="3">
+                  <input id="Rating" type="radio" name="Rating" value="4">
+                  <input id="Rating" type="radio" name="Rating" value="5">
+                </div>
+                <div>
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" name="nombre" type="text" value="">
+                </div>
+                <div>
+                 <label for="comentario">Comentario</label>
+                 <input name="comentario" id="comentario" type="text" value="">
+                </div>
+                <div>
+                 <label for="fecha">Fecha</label>
+                 <input name="fecha" id="fecha" type="date" value="">
+                 </div>
+                </form>
             </div>
-            <div>
-              <label for="comentario">Comentario</label>
-              <input name="comentario" id="comentario" type="text" value="">
-            </div>
-            <div>
-               <label for="fecha">Fecha</label>
-               <input name="fecha" id="fecha" type="date" value="">
-            </div>
-            </form>
 
         </section>
      </main>
