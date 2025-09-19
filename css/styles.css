@@ -1,5 +1,4 @@
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,8 +6,12 @@
 
 .headeer {
     display: flex;
-    justify-content: flex-end;
-    align-self: flex-start;
+    justify-content: center;
+    background-color: #f9d99c;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    margin: 10px;
 }
 
 .login {
@@ -35,7 +38,7 @@ header {
 
     justify-content: flex-start;
     align-self: center;
-    
+
 }
 
 .lo1 {
@@ -48,22 +51,19 @@ header {
     justify-content: center;
     text-align: center;
     align-self: flex-end;
+    
 }
 
 .sl1 {
     display: flex;
     align-self: flex-start;
-    justify-content: flex-end;
+    justify-content:center;
+    background-color: #f9d99c;
 }
 
-.buscador {
+.busqueda {
     display: flex;
-    justify-content: flex-start;
-    align-self: flex-start;
-    width: 120px;
-}
-.busqueda{
-    display: flex;
+    padding-left: 15px;
 }
 
 main {
@@ -82,86 +82,91 @@ footer {
     align-self: center;
 }
 
-.nav-vertical{
-  background-color: antiquewhite; 
-  padding: 20px;
-  width: 240px;       
+.nav-vertical {
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 240px;
 }
 
 .categorias {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  gap: 10px;
-  
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+
 }
 
 .categoria {
-  display: block;           
-  width: 100%;
-  background-color: orange;
-  color: white;
-  text-align: center;       
-  border-radius: 4px;
-  padding: 10px 0;
-  text-decoration: none;
-  font-weight: bold;
+    display: block;
+    width: 100%;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.categoria:hover {
-  background-color: darkorange;
-}
-.log11{
+.log11 {
     display: flex;
     justify-content: center;
     align-self: center;
     height: 85vh;
-    
+
 }
-.reg11{
+
+.reg11 {
     display: flex;
     justify-content: center;
     align-self: center;
     height: 85vh;
 }
-.regg{
+
+.regg {
     align-self: center;
 }
-.regdiv{
+
+.regdiv {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: medium;
 }
-.logdiv{
+
+.logdiv {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: medium;
 }
-.mainproduct{
+
+.mainproduct {
     display: flex;
 }
-.mainindex{
+
+.mainindex {
     display: flex;
     min-height: 100vh;
     flex: 1;
     display: flex;
     background-size: cover;
 }
-.randomp{
+
+.randomp {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
     margin-bottom: 100px;
     margin-top: 70px;
-    
-    
 
-    
+
+
+
 }
-.imadiv{
+
+.imadiv {
     height: 200px;
     width: 200px;
     background-color: white;
@@ -171,69 +176,95 @@ footer {
     align-self: center;
     text-align: center;
     border: solid 2px;
-    
-    
+
+
 }
-.imgin{
+
+.imgin {
     height: 100px;
     width: 90px;
     margin-top: 5px;
 }
 
-.masp{
+.masp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 70px;
-    
-    
+
+
 }
 
-.maincategory{
+.maincategory {
     display: flex;
 
 }
 
-.imagencategory{
+.imagencategory {
     height: 150px;
     width: 150px;
 }
+
 .producto {
     height: 200px;
     width: 200px;
-    
-    
+
+
 }
 
-.productos{
+.productos {
     display: flex;
+    flex-direction: row;
+    margin: 40px;
 }
-.mainresultados{
+
+.mainresultados {
     display: flex;
     flex-direction: column;
 }
-.cajas{
+
+.cajas {
     background-color: rgba(255, 166, 0, 0.534);
-    
+
 }
-.padre-product{
+
+.padre-product {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-} 
-.img-product{
+}
+
+.img-product {
     width: 400px;
     height: 400px;
     margin-left: 10px;
 }
-.product-div1{
+
+.product-div1 {
     display: flex;
 }
-.detalles{
+
+.detalles {
     font-size: x-large;
     margin-left: 10px;
 }
-.product-div2{
+
+.product-div2 {
     display: flex;
     flex-direction: column;
+}
+
+
+.footer1 {
+    -ms-text-size-adjust: 5%;
+}
+
+.nombrebeauty {
+    background-color: rgb(233, 231, 227);
+    height: 30px;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(235 134 33);
 }
