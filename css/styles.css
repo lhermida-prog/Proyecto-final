@@ -100,8 +100,11 @@ footer {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 10px;
 
+}
+
+.categorias li{
+    margin-bottom: 10px;
 }
 
 .categoria {
