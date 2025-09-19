@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    padding-right: 5px;
 }
 
 .headeer {
@@ -222,7 +221,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
-
 .cajas {
     background-color: rgba(255, 166, 0, 0.534);
 
@@ -238,6 +236,7 @@ footer {
     width: 400px;
     height: 400px;
     margin-left: 10px;
+    border: 2px black solid;
 }
 
 .product-div1 {
@@ -245,8 +244,9 @@ footer {
 }
 
 .detalles {
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 10px;
+    padding-bottom: 30px;
 }
 
 .product-div2 {
@@ -270,4 +270,40 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.tags{
+    display: flex;
+    padding-bottom: 10px;
+}
+.tags2{
+    display: flex;
+    margin-right: 10px;
+}
+.product-div3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.padding-productos{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+.estructura-busqueda{
+    height: 250px;
+    width: 250px;
+    padding-top: 30px;
+}
+.h1-product{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.h2-product{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.titulo-resultado{
+    padding-top: 40px;
+    padding-left: 20px;
 }
