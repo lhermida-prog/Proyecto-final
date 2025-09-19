@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    padding-right: 5px;
 }
 
 .headeer {
@@ -35,14 +36,19 @@ header {
 }
 
 .loginn {
-
     justify-content: flex-start;
     align-self: center;
-
+    background-color: white;
+    height: 694px;
+    width: 500px;
+   
 }
 
 .lo1 {
     align-self: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -51,13 +57,13 @@ header {
     justify-content: center;
     text-align: center;
     align-self: flex-end;
-    
+
 }
 
 .sl1 {
     display: flex;
     align-self: flex-start;
-    justify-content:center;
+    justify-content: center;
     background-color: #f9d99c;
 }
 
@@ -115,7 +121,6 @@ footer {
     justify-content: center;
     align-self: center;
     height: 85vh;
-
 }
 
 .reg11 {
@@ -139,6 +144,9 @@ footer {
     margin-bottom: 10px;
     font-weight: bold;
     font-size: medium;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 .mainproduct {
@@ -160,10 +168,6 @@ footer {
     justify-content: space-around;
     margin-bottom: 100px;
     margin-top: 70px;
-
-
-
-
 }
 
 .imadiv {
@@ -176,8 +180,6 @@ footer {
     align-self: center;
     text-align: center;
     border: solid 2px;
-
-
 }
 
 .imgin {
@@ -191,13 +193,10 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 70px;
-
-
 }
 
 .maincategory {
     display: flex;
-
 }
 
 .imagencategory {
@@ -208,8 +207,6 @@ footer {
 .producto {
     height: 200px;
     width: 200px;
-
-
 }
 
 .productos {
@@ -265,6 +262,9 @@ footer {
     margin: 10px;
 }
 
-button{
+button {
     background-color: rgb(235 134 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
