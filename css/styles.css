@@ -202,8 +202,15 @@ footer {
 }
 
 .imagencategory {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    border: solid 2px;
 }
 
 .producto {
@@ -213,8 +220,12 @@ footer {
 
 .productos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 40px;
+}
+
+.tituloproducto{
+    font-size: 25px;
 }
 
 .mainresultados {
@@ -260,9 +271,9 @@ footer {
 }
 
 .nombrebeauty {
-    background-color: rgb(233, 231, 227);
     height: 30px;
     margin: 10px;
+    font-size: 30px;
 }
 
 button {
