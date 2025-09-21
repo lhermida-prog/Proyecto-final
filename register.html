@@ -19,22 +19,23 @@
             <form action="./index.html" method="get" class="regg">
                 <div class="logdiv">
                     <label for="mail">Mail: </label>
-                    <input type="email" id="mail" value="" name="maill">
+                    <input required type="email" id="mail" value="" name="maill">
                 </div>
                 <div class="logdiv">
                     <label for="cont">Contraseña: </label>
-                    <input type="password" name="pass" id="cont" value="">
+                    <input required type="password" name="pass" id="cont" value="">
                 </div>
                 <div class="logdiv">
                     <label for="rcont">Repetir contraseña: </label>
-                    <input type="password" name="rcon" id="rcont" value="">
+                    <input required type="password" name="rcon" id="rcont" value="">
                 </div>
-                <button type="submit" class="logdiv">Registrarme</button>
                 <div class="logdiv">
                     <label for="regis">Acepto terminos y condiciones</label>
-                    <input type="checkbox" name="condd" id="regis" value="">
+                    <input required type="checkbox" name="condd" id="regis" value="">
                 </div>
-                <a href="./login.html">Ya tengo cuenta</a>
+                <button type="submit" class="logdiv btn">Registrarme</button>
+                
+                <a href="./login.html" class="linka">Ya tengo cuenta</a>
             </form>
         </section>
     </main>

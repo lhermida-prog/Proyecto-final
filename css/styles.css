@@ -35,11 +35,13 @@ header {
 }
 
 .loginn {
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-self: center;
-    background-color:white;
-    height: 694px;
-    width: 500px;
+    background-image: url(../img/image6.png);
+    background-position: center;
+    
    
 }
 
@@ -123,6 +125,7 @@ footer {
     justify-content: center;
     align-self: center;
     height: 85vh;
+    background-image: url(../img/image5.png);
 }
 
 .reg11 {
@@ -133,7 +136,11 @@ footer {
 }
 
 .regg {
+    display: flex;
+    flex-direction: column;
     align-self: center;
+    
+    
 }
 
 .regdiv {
@@ -148,7 +155,15 @@ footer {
     font-size: medium;
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 30px;
+}
+.btn{
+    margin-bottom: 0;
+    background-color: rgba(24, 210, 24, 0.694);
+    text-align: center;
+}
+.linka{
+    text-align: center;
 }
 
 .mainproduct {
@@ -317,4 +332,47 @@ button {
 .titulo-resultado{
     padding-top: 40px;
     padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .imadiv{
+        width: 140px;
+        height: 140px;
+        margin-right: 7px;
+        margin-bottom: 25px;
+    }
+    .imgin{
+        width: 50px;
+        height: 50px;
+    }
+    .randomp{
+        margin-bottom: 70px;
+        margin-top: 80px;
+    }
+    .masp{
+        margin-top: 70px;
+    }
+    .nav-vertical{
+        width: 180px;
+    }
+
 }
