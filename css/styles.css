@@ -41,8 +41,8 @@ header {
     align-self: center;
     background-image: url(../img/image6.png);
     background-position: center;
-    
-   
+
+
 }
 
 .lo1 {
@@ -78,7 +78,7 @@ main {
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
-
+    height: 1741px;
 }
 
 footer {
@@ -104,7 +104,7 @@ footer {
 
 }
 
-.categorias li{
+.categorias li {
     margin-bottom: 10px;
 }
 
@@ -139,8 +139,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: center;
-    
-    
+
+
 }
 
 .regdiv {
@@ -157,12 +157,14 @@ footer {
     justify-content: center;
     margin: 30px;
 }
-.btn{
+
+.btn {
     margin-bottom: 0;
     background-color: rgba(24, 210, 24, 0.694);
     text-align: center;
 }
-.linka{
+
+.linka {
     text-align: center;
 }
 
@@ -231,15 +233,16 @@ footer {
 .producto {
     height: 200px;
     width: 200px;
+    margin: 70px;
 }
 
 .productos {
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: 0px;
 }
 
-.tituloproducto{
+.tituloproducto {
     font-size: 25px;
 }
 
@@ -247,6 +250,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .cajas {
     background-color: rgba(255, 166, 0, 0.534);
 
@@ -297,39 +301,47 @@ button {
     flex-direction: row;
     justify-content: center;
 }
-.tags{
+
+.tags {
     display: flex;
     padding-bottom: 10px;
 }
-.tags2{
+
+.tags2 {
     display: flex;
     margin-right: 10px;
 }
-.product-div3{
+
+.product-div3 {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
 }
-.padding-productos{
+
+.padding-productos {
     padding-bottom: 20px;
     font-weight: bold;
     font-size: larger;
 }
-.estructura-busqueda{
+
+.estructura-busqueda {
     height: 250px;
     width: 250px;
     padding-top: 30px;
 }
-.h1-product{
+
+.h1-product {
     margin-left: 15px;
     margin-bottom: 10px;
     text-decoration: underline;
 }
-.h2-product{
+
+.h2-product {
     margin-left: 15px;
     margin-bottom: 10px;
 }
-.titulo-resultado{
+
+.titulo-resultado {
     padding-top: 40px;
     padding-left: 20px;
 }
@@ -354,24 +366,28 @@ button {
 
 
 @media (max-width: 768px) {
-    .imadiv{
+    .imadiv {
         width: 140px;
         height: 140px;
         margin-right: 7px;
         margin-bottom: 25px;
     }
-    .imgin{
+
+    .imgin {
         width: 50px;
         height: 50px;
     }
-    .randomp{
+
+    .randomp {
         margin-bottom: 70px;
         margin-top: 80px;
     }
-    .masp{
+
+    .masp {
         margin-top: 70px;
     }
-    .nav-vertical{
+
+    .nav-vertical {
         width: 180px;
     }
 
