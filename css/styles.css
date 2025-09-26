@@ -316,12 +316,12 @@ button {
 .product-div3 {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .padding-productos {
     padding-bottom: 20px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: larger;
 }
 
@@ -392,8 +392,8 @@ button {
         width: 180px;
     }
     .img-product{
-        width: 200px;
-        height: 200px;
+        width: 550px;
+        height: 550px;
     }
     .product-div1{
         display: flex;
