@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .headeer {
     display: flex;
     justify-content: center;
@@ -25,13 +35,11 @@
     border-style: solid;
     border-color: black;
     margin-top: 20px;
-
 }
 
 header {
-    background-image: url(../img/image2.png);
+    background-image: url("../img/image2.png");
     background-repeat: no-repeat;
-
 }
 
 .loginn {
@@ -39,10 +47,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    background-image: url(../img/image6.png);
+    background-image: url("../img/image6.png");
     background-position: center;
-
-
 }
 
 .lo1 {
@@ -63,18 +69,21 @@ header {
 
 .sl1 {
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     justify-content: center;
     background-color: #f9d99c;
+
 }
 
 .busqueda {
     display: flex;
     padding-left: 15px;
+    height: 30px;
+    margin-top: 0px;
 }
 
 main {
-    background-image: url(../img/image3.png);
+    background-image: url("../img/image3.png");
     background-repeat: no-repeat;
     display: flex;
     background-size: cover;
@@ -82,7 +91,7 @@ main {
 }
 
 footer {
-    background-image: url(../img/image2.png);
+    background-image: url("../img/image2.png");
     height: 70px;
     display: flex;
     justify-content: center;
@@ -101,7 +110,6 @@ footer {
     list-style-type: none;
     padding: 0;
     margin: 0;
-
 }
 
 .categorias li {
@@ -125,7 +133,7 @@ footer {
     justify-content: center;
     align-self: center;
     height: 85vh;
-    background-image: url(../img/image5.png);
+    background-image: url("../img/image5.png");
 }
 
 .reg11 {
@@ -139,8 +147,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: center;
-
-
 }
 
 .regdiv {
@@ -219,8 +225,14 @@ footer {
 }
 
 .imagencategory {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
+}
+
+.producto {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
     background-color: white;
     margin-right: 20px;
     margin-bottom: 15px;
@@ -230,16 +242,11 @@ footer {
     border: solid 2px;
 }
 
-.producto {
-    height: 200px;
-    width: 200px;
-    margin: 70px;
-}
-
 .productos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0px;
+    flex-wrap: wrap;
 }
 
 .tituloproducto {
@@ -285,15 +292,11 @@ footer {
     flex-direction: column;
 }
 
-
-.footer1 {
-    -ms-text-size-adjust: 5%;
-}
-
 .nombrebeauty {
     height: 30px;
     margin: 10px;
     font-size: 30px;
+    margin-left: 40px;
 }
 
 button {
@@ -351,7 +354,14 @@ button {
     margin-top: 150px;
 }
 
+.listanav{
+    display: flex;
+    
+}
 
+li{
+    text-decoration: none;
+}
 
 
 
@@ -408,6 +418,28 @@ button {
         width: 200px;
         height: 200px;
     }
-   
+    .tituloproducto{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .prodcutos{
+        flex-direction: row;
 
+
+    }
+    .imagencategory{
+        margin-top: 10;
+        height: 150px;
+        width: 150px;
+     
+    }
+
+    .producto{
+        height: 210px;
+        width: 210px;
+    }
 }
+
+
