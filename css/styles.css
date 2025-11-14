@@ -365,7 +365,13 @@ li{
 
 
 
-
+.error{
+    display: none;
+    font-size: 40px;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+}
 
 
 

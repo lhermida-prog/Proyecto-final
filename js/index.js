@@ -12,7 +12,7 @@ fetch(url)
     for(let i = 0; i < 10; i ++)
         primer_article_index.innerHTML +=
         `<article class="imadiv">
-            <img src='${productos[i].images[0]}  class="imgin">
+            <img src='${productos[i].images}  class="imgin">
             <h3>'${productos[i].title}'</h3>
             <div class="cajas">
                 <p>${productos[i].category} </p>
