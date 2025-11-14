@@ -52,3 +52,23 @@ fetch(url)
 .catch(function(error){
     console.log(error)
 })
+
+let url1 = "https://dummyjson.com/products/category-list"
+
+let categoria = document.querySelector(".categorias")
+fetch (url1)
+.then(function(res){
+    return res.json()
+})
+
+.then(function(data){
+    for(let i=0; i< data.length; i++){
+        categoria.innerHTML += `<li><a class="categoria" href="./category.html?categoria=${data[i]}">${data[i]}</a></li>`
+    }
+    
+})
+.catch(function(error){
+    console.log(error)
+})
+
+
