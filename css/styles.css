@@ -363,6 +363,29 @@ li{
     text-decoration: none;
 }
 
+
+
+.error{
+    display: none;
+    font-size: 40px;
+    justify-content: center;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     .imadiv {
         width: 140px;
