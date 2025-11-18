@@ -23,6 +23,10 @@ fetch(URL)
 })
 .then(function(data){
     let resultado = data.products
+    if (resultado.length === 0){
+        error.style.display = "block"
+        titulo.style.display = "none"
+    }
     for(let i = 0; i < resultado.length && i < 10; i++){
     article.innerHTML += `
     <article class="imadiv estructura-busqueda">
@@ -39,3 +43,7 @@ fetch(URL)
 .catch(function(err){
     console.log(err);
 })
+
+if (inputBusqueda.value != resultado){
+    error.style.display = "block" 
+}
