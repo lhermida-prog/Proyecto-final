@@ -6,7 +6,7 @@ let h1 = document.querySelector(".h1-product")
 let h2 = document.querySelector(".h2-product")
 let img = document.querySelector(".img-product")
 let h3 = document.querySelector(".detalles")
-let categoria = document.querySelector(".padding-productos")
+let categoria = document.querySelector(".categoriaa")
 
 fetch(URLproductos)
 .then(function(res){
@@ -18,7 +18,7 @@ fetch(URLproductos)
     h2.innerText = data.brand
     img.src = data.images[0]
     h3.innerText = data.description
-    categoria.innerHTML = ` Categoría: <a class="categoria" href="./category.html?categoria=${data.category}">${data.category}</a>` 
+    categoria.innerHTML = ` Categoría:<a class="categoriaa" href="./category.html?categoria=${data.category}"> ${data.category}</a>` 
     
 })
 .catch(function(err){
