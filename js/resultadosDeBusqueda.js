@@ -13,9 +13,8 @@ formulario.addEventListener("submit", function(event){
 
     if(inputBusqueda.value.length < 3){
         return alert("No puede tener menos de tres caracteres, volver a intentar")
-    }else{
-        this.submit()
     }
+    this.submit()
 })
 
 fetch(URL)

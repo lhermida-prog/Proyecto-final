@@ -381,7 +381,12 @@ li{
 }
 
 
-
+.saludo{
+    display: none;
+}
+.saludo1{
+    display: none;
+}
 
 
 
