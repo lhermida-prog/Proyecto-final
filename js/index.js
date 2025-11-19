@@ -1,6 +1,7 @@
 let primer_article_index = document.querySelector(".randomp")
 let segundo_article_index = document.querySelector(".masp")
 let url = 'https://dummyjson.com/products'
+
 fetch(url)
 .then(function(res){
     return res.json()
@@ -13,7 +14,7 @@ fetch(url)
         primer_article_index.innerHTML +=
         `<article class="imadiv">
             <img src='${productos[i].thumbnail}'  class="imgin">
-            <h3>'${productos[i].title}'</h3>
+            <h3>${productos[i].title}</h3>
             <div class="cajas">
                 <p>${productos[i].category} </p>
                 <p>${productos[i].price}</p>

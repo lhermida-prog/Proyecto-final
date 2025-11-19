@@ -2,15 +2,16 @@ let queryString = location.search
 let queryStringObj = new URLSearchParams(queryString) 
 let busqueda_usu = queryStringObj.get("busqueda")
 let article = document.querySelector(".randomp")
-let error = document.querySelector(".error")
 let URL = `https://dummyjson.com/products/search?q=${busqueda_usu}`
-let titulo = document.querySelector(".titulo-resultado")
+let error = document.querySelector(".error")
 let formulario = document.querySelector(".busqueda")
 let inputBusqueda = document.querySelector("#busqueda")
+let main = document.querySelector(".mainresultados")
+let titulo = document.querySelector(".titulo-resultado")
 titulo.innerText = `Resultado de ${busqueda_usu}`
+
 formulario.addEventListener("submit", function(event){
     event.preventDefault()
-
     if(inputBusqueda.value.length < 3){
         return alert("No puede tener menos de tres caracteres, volver a intentar")
     }
