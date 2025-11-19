@@ -1,6 +1,6 @@
-let queryString = location.search
-let queryStringObj = new URLSearchParams(queryString) 
-let busqueda_usu = queryStringObj.get("busqueda")
+let queryStringg = location.search
+let queryStringObjj = new URLSearchParams(queryStringg) 
+let busqueda_usu = queryStringObjj.get("busqueda")
 let formulario = document.querySelector(".busqueda")
 let inputBusqueda = document.querySelector("#busqueda")
 
@@ -47,6 +47,3 @@ fetch(URL)
     console.log(err);
 })
 
-if (inputBusqueda.value != resultado){
-    error.style.display = "block" 
-}
