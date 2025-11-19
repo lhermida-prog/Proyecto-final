@@ -366,11 +366,12 @@ li{
 
 
 .error{
-    display: block;
+    display: none;
     font-size: 40px;
     justify-content: center;
     align-self: center;
     font-weight: bold;
+    padding-top: 250px;
 }
 
 .prod{

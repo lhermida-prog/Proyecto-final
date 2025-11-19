@@ -20,7 +20,6 @@ let titulo = document.querySelector(".titulo-resultado")
 titulo.innerText = `Resultado de ${busqueda_usu}`
 
 
-
 fetch(URL)
 .then(function(res){
     return res.json()
@@ -28,8 +27,8 @@ fetch(URL)
 .then(function(data){
     let resultado = data.products
     if (resultado.length === 0){
-        error.style.display = "block"
         titulo.style.display = "none"
+        error.style.display = "block"
     }
     for(let i = 0; i < resultado.length && i < 10; i++){
     article.innerHTML += `
