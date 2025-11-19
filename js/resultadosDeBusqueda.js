@@ -28,7 +28,7 @@ fetch(URL)
     let resultado = data.products
     if (resultado.length === 0){
         titulo.style.display = "none"
-        error.style.display = "block"
+        error.style.display = "block" 
     }
     for(let i = 0; i < resultado.length && i < 10; i++){
     article.innerHTML += `
