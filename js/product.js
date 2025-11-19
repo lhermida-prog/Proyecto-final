@@ -20,7 +20,7 @@ fetch(URLproductos)
     img.src = data.images[0]
     h3.innerText = data.description
     categoria.innerHTML = ` Categoría:<a class="categoriaa" href="./category.html?categoria=${data.category}"> ${data.category}</a>` 
-    stock.innerHTML = `Stock: <a class="stock" href="./category.html?categoria=${data.stock}"> ${data.stock}</a>`
+    stock.innerHTML = `Stock: ${data.stock}`
     
 })
 .catch(function(err){

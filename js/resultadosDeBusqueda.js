@@ -1,14 +1,8 @@
 let queryString = location.search
 let queryStringObj = new URLSearchParams(queryString) 
 let busqueda_usu = queryStringObj.get("busqueda")
-let article = document.querySelector(".randomp")
-let URL = `https://dummyjson.com/products/search?q=${busqueda_usu}`
-let error = document.querySelector(".error")
 let formulario = document.querySelector(".busqueda")
 let inputBusqueda = document.querySelector("#busqueda")
-let main = document.querySelector(".mainresultados")
-let titulo = document.querySelector(".titulo-resultado")
-titulo.innerText = `Resultado de ${busqueda_usu}`
 
 formulario.addEventListener("submit", function(event){
     event.preventDefault()
@@ -17,6 +11,15 @@ formulario.addEventListener("submit", function(event){
     }
     this.submit()
 })
+
+let article = document.querySelector(".randomp")
+let URL = `https://dummyjson.com/products/search?q=${busqueda_usu}`
+let error = document.querySelector(".error")
+let main = document.querySelector(".mainresultados")
+let titulo = document.querySelector(".titulo-resultado")
+titulo.innerText = `Resultado de ${busqueda_usu}`
+
+
 
 fetch(URL)
 .then(function(res){
