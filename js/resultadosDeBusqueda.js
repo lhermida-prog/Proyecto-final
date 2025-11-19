@@ -29,6 +29,7 @@ fetch(URL)
     if (resultado.length === 0){
         titulo.style.display = "none"
         error.style.display = "block" 
+        error.innerText =  `No hay resultados para el término ${busqueda_usu}`
     }
     for(let i = 0; i < resultado.length && i < 10; i++){
     article.innerHTML += `
