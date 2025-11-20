@@ -36,7 +36,7 @@ fetch(URL)
     <article class="imadiv estructura-busqueda">
         <img src="${resultado[i].thumbnail}" class="imgin">
         <h3>${resultado[i].title}</h3>
-        <div class="cajas">
+        <div class="cajas limite">
             <p>${resultado[i].category}</p>
             <p>${resultado[i].price}</p>
             <a href="./product.html?producto=${resultado[i].id}">ver detalles</a>

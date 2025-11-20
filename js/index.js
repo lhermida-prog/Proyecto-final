@@ -14,7 +14,7 @@ fetch(url)
         primer_article_index.innerHTML +=
         `<article class="imadiv">
             <img src='${productos[i].thumbnail}'  class="imgin">
-            <h3>${productos[i].title}</h3>
+            <h3  class = "limite">${productos[i].title}</h3>
             <div class="cajas">
                 <p>${productos[i].category} </p>
                 <p>${productos[i].price}</p>
@@ -40,7 +40,7 @@ fetch(url)
         segundo_article_index.innerHTML +=
         `<article class="imadiv">
             <img src='${productos[i].thumbnail}'  class="imgin">
-            <h3>'${productos[i].title}'</h3>
+            <h3  class = "limite">${productos[i].title}</h3>
             <div class="cajas">
                 <p>${productos[i].category} </p>
                 <p>${productos[i].price}</p>

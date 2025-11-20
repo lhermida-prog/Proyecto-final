@@ -191,12 +191,12 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
-    margin-bottom: 100px;
-    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-top: 60px;
 }
 
 .imadiv {
-    height: 200px;
+    height: 250px;
     width: 200px;
     background-color: white;
     margin-right: 20px;
@@ -217,7 +217,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .maincategory {
@@ -394,9 +394,10 @@ li{
     display: block;
 }
 
-
-
-
+.limite{
+    height: 30px;
+    margin-bottom: 32px;
+}
 
 
 @media (max-width: 768px) {
