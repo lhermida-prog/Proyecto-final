@@ -41,7 +41,7 @@ if (formulario) {
       return;
     }
     
-    form.action = "./login.html";
-    form.submit();
+    formulario.action = "./login.html";
+    formulario.submit();
   });
 } 

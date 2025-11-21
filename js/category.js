@@ -18,7 +18,7 @@ fetch(`https://dummyjson.com/products/category/${querry}`)
             <article class = "producto">
                 <h1>${producto[i].title}</h2>
                 <h3>Precio: ${producto[i].price}</h1>
-                <a href="./detalle.html?IdProducto=${producto[i].id}">Ver detalle</a>
+                <a href="./product.html?producto=${producto[i].id}">Ver detalle</a>
             </article>`
         }
         productos.innerHTML = contenido
