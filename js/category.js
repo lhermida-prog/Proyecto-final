@@ -13,10 +13,11 @@ fetch(`https://dummyjson.com/products/category/${querry}`)
     .then(function (data) {
         let contenido = ``
         let producto = data.products;
-        for (let i = 0; i < producto.length; i++) {
+        for (let i = 0; i < producto.length && i<8; i++) {
             contenido += `
             <article class = "producto">
                 <h1>${producto[i].title}</h2>
+                <img src='${producto[i].images[0]}' class='imagencategory'>
                 <h3>Precio: ${producto[i].price}</h1>
                 <a href="./product.html?producto=${producto[i].id}">Ver detalle</a>
             </article>`
