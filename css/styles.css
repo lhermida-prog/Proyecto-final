@@ -401,9 +401,13 @@ li{
 
 
 @media (max-width: 768px) {
+    .limite{
+        margin-bottom: 30px;
+        height: 10px;
+    }
     .imadiv {
         width: 140px;
-        height: 140px;
+        height: 170px;
         margin-right: 7px;
         margin-bottom: 25px;
     }
@@ -414,12 +418,13 @@ li{
     }
 
     .randomp {
-        margin-bottom: 70px;
-        margin-top: 80px;
+        margin-bottom: 35px;
+        margin-top: 35px;
     }
 
     .masp {
-        margin-top: 70px;
+        margin-top: 30px;
+        margin-bottom: 35px;
     }
 
     .nav-vertical {
