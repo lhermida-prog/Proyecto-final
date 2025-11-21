@@ -10,7 +10,7 @@ fetch(url)
 .then(function(data){
     let productos= data.products
     
-    for(let i = 0; i < 10; i ++)
+    for(let i = 2; i < 12; i ++)
         primer_article_index.innerHTML +=
         `<article class="imadiv">
             <img src='${productos[i].thumbnail}'  class="imgin">
@@ -36,7 +36,7 @@ fetch(url)
 .then(function(data){
     let productos= data.products
     
-    for(let i = 10; i < 20; i ++)
+    for(let i = 16; i < 26; i ++)
         segundo_article_index.innerHTML +=
         `<article class="imadiv">
             <img src='${productos[i].thumbnail}'  class="imgin">

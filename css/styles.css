@@ -399,6 +399,15 @@ li{
     margin-bottom: 32px;
 }
 
+.todoRating{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nMargin{
+    margin-bottom: 25px;
+}
+
 
 @media (max-width: 768px) {
     .limite{

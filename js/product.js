@@ -33,10 +33,10 @@ fetch(URLproductos)
         }
         for (let i = 0; i < data.reviews.length; i++) {
             contenido += `
-        <h2>Rating: ${data.reviews[i].rating}</h2>
-        <p>Comentario: ${data.reviews[i].comment}</p>
-        <p>Fecha: ${data.reviews[i].date}</p>
-        <p>Usuario: ${data.reviews[i].reviewerName}</p>
+        <h2 class ='todoRating'>Rating: ${data.reviews[i].rating}</h2>
+        <p class ='todoRating'>Comentario: ${data.reviews[i].comment}</p>
+        <p class ='todoRating'>Fecha: ${data.reviews[i].date}</p>
+        <p class ='todoRating nMargin'>Usuario: ${data.reviews[i].reviewerName}</p>
         `
         }
         opiniones.innerHTML = contenido
