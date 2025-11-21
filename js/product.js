@@ -13,19 +13,20 @@ let categoria = document.querySelector(".categoriaa")
 let stock = document.querySelector(".stock")
 let tags = document.querySelector(".tags")
 let opiniones = document.querySelector(".opiniones")
+let article = document.querySelector(".product-div1")
 
 fetch(URLproductos)
     .then(function (res) {
         return res.json()
     })
     .then(function (data) {
+        console.log(data);
         contenido = ``
         h1.innerText = data.title
         h2.innerText = data.brand
         img.src = data.images[0]
         h3.innerText = data.description
-
-        categoria.innerHTML = ` Categoría:<a class="categoriaa" href="./category.html?idtag=${data.category}"> ${data.category}</a>`
+        categoria.innerHTML = `Categoría:<a class="categoriaa" href="./category.html?idtag=${data.category}"> ${data.category}</a>`
         stock.innerHTML = `Stock: ${data.stock}`
         for (let i = 0; i < data.tags.length && i < 3; i++) {
             tags.innerHTML += `<li class="tags2">${data.tags[i]}</li>`
@@ -39,7 +40,6 @@ fetch(URLproductos)
         `
         }
         opiniones.innerHTML = contenido
-
     })
     .catch(function (err) {
         return err
